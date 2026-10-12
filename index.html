@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中诚特卫 ZHONGCHENG SPECIAL SECURITY | 海外安保一体化解决方案</title>
+<meta name="description" content="中诚特卫提供海外人员护卫、驻场安保、车队护送、风险评估与安保培训服务，覆盖非洲与东南亚，中英双语对接。">
+<meta name="theme-color" content="#08080A">
+
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/oswald@5/400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/oswald@5/600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/oswald@5/700.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============================ 顶部导航 ============================ -->
+<header class="nav" id="nav">
+  <div class="shell">
+    <a class="brand" href="#top" aria-label="返回顶部">
+      <img class="brand-logo" id="navLogo" src="assets/logo-light.png" alt="中诚特卫 ZHONGCHENG SPECIAL SECURITY">
+    </a>
+
+    <nav class="nav-links" id="navLinks"></nav>
+
+    <div class="nav-tools">
+      <div class="lang" role="group" aria-label="语言切换">
+        <button type="button" data-lang="cn" class="is-active">中文</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <button class="btn btn--primary btn--sm" type="button" data-order-open id="navCta">获取报价</button>
+      <button class="nav-burger" type="button" id="burger" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================ 首屏 ============================ -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="assets/img/hero.jpg" alt="" fetchpriority="high">
+    </div>
+    <div class="shell">
+      <p class="hero-eyebrow" id="heroEyebrow"></p>
+      <h1 id="heroTitle"></h1>
+      <p class="hero-en" id="heroEn"></p>
+      <p class="hero-lead" id="heroLead"></p>
+      <div class="hero-cta">
+        <button class="btn btn--primary" type="button" data-order-open id="heroCta1"></button>
+        <a class="btn btn--ghost" href="#services" id="heroCta2"></a>
+      </div>
+      <div class="hero-foot">
+        <span class="hero-scroll"><i></i><span id="heroScroll"></span></span>
+        <span id="heroSlogan"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ 数据条 ============================ -->
+  <section class="stats">
+    <div class="shell" id="stats"></div>
+  </section>
+
+  <!-- ============================ 服务类型 ============================ -->
+  <section class="section" id="services">
+    <div class="shell">
+      <header class="sec-head reveal">
+        <p class="sec-tag" id="svcTag"></p>
+        <h2 class="sec-title" id="svcTitle"></h2>
+        <p class="sec-sub" id="svcSub"></p>
+      </header>
+      <div class="svc-grid" id="svcGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============================ 安保方案 ============================ -->
+  <section class="section" id="ops">
+    <div class="shell">
+      <header class="sec-head reveal">
+        <p class="sec-tag" id="opsTag"></p>
+        <h2 class="sec-title" id="opsTitle"></h2>
+        <p class="sec-sub" id="opsSub"></p>
+      </header>
+      <div class="ops-track" id="opsTrack"></div>
+    </div>
+  </section>
+
+  <!-- ============================ 覆盖地区 ============================ -->
+  <section class="section" id="coverage">
+    <div class="shell">
+      <header class="sec-head reveal">
+        <p class="sec-tag" id="covTag"></p>
+        <h2 class="sec-title" id="covTitle"></h2>
+        <p class="sec-sub" id="covSub"></p>
+      </header>
+      <div class="cov-map reveal" id="covMap"></div>
+      <div class="cov-list reveal" data-d="1" id="covList"></div>
+      <p class="cov-note" id="covNote"></p>
+    </div>
+  </section>
+
+  <!-- ============================ 团队实力 ============================ -->
+  <section class="section" id="media">
+    <div class="shell">
+      <header class="sec-head reveal">
+        <p class="sec-tag" id="mdTag"></p>
+        <h2 class="sec-title" id="mdTitle"></h2>
+        <p class="sec-sub" id="mdSub"></p>
+      </header>
+      <div class="media-grid" id="mediaGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============================ 报价档位 ============================ -->
+  <section class="section" id="pricing">
+    <div class="shell">
+      <header class="sec-head reveal">
+        <p class="sec-tag" id="priTag"></p>
+        <h2 class="sec-title" id="priTitle"></h2>
+        <p class="sec-sub" id="priSub"></p>
+      </header>
+      <div class="plans" id="plans"></div>
+    </div>
+  </section>
+
+  <!-- ============================ 关于我们 ============================ -->
+  <section class="section" id="about">
+    <div class="shell">
+      <header class="sec-head reveal">
+        <p class="sec-tag" id="abTag"></p>
+        <h2 class="sec-title" id="abTitle"></h2>
+      </header>
+      <div class="about-wrap">
+        <div class="about-plate reveal"><img src="assets/logo.jpg" alt="中诚特卫品牌标识"></div>
+        <div class="about-body reveal" data-d="1">
+          <p id="abBody"></p>
+          <dl class="about-facts" id="abFacts"></dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ 询价表单 ============================ -->
+  <section class="section" id="quote">
+    <div class="shell">
+      <header class="sec-head reveal">
+        <p class="sec-tag" id="qtTag"></p>
+        <h2 class="sec-title" id="qtTitle"></h2>
+        <p class="sec-sub" id="qtSub"></p>
+      </header>
+      <div class="quote-wrap">
+        <div class="quote-side reveal" id="qtSide"></div>
+        <div class="reveal" data-d="1">
+          <div class="form-ok" id="formOk"></div>
+          <form id="quoteForm" novalidate></form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================ 页脚 ============================ -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-top">
+      <img class="brand-logo" src="assets/logo-light.png" alt="中诚特卫 ZHONGCHENG SPECIAL SECURITY">
+      <nav class="footer-links" id="footerLinks"></nav>
+    </div>
+    <div class="footer-note">
+      <span id="footerNote"></span>
+      <span id="footerCopy"></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================ 询价弹窗 ============================ -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-box">
+    <div class="modal-head">
+      <div>
+        <h3 id="modalTitle"></h3>
+        <p id="modalService"></p>
+      </div>
+      <button class="modal-close" type="button" data-order-close aria-label="关闭">&times;</button>
+    </div>
+    <div class="form-ok" id="modalOk"></div>
+    <form id="modalForm" novalidate></form>
+  </div>
+</div>
+
+<script src="data/site-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
